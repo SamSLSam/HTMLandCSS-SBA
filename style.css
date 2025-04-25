@@ -1,0 +1,51 @@
+body{
+    /* background-color: black; */
+    color: rgb(227, 227, 225);
+    text-shadow: black 3px;
+    background-image: url('https://media1.giphy.com/media/fS9PCxQYG0ULu/giphy.gif?cid=6c09b952xjq50ti9fa6po2eb72pbscnt9yy169ctxi8y9qo8&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.2);
+    background-blend-mode: lighten;
+    font-size: 20px;
+}
+.bcenter{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    color: white;
+    /* transition: ; */
+}
+a{
+    font-size: 25px;
+    transition: font-size 1s;
+}
+a:visited{
+    color: white;
+    font-size: 100px;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+button {
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: red;
+  }
+
+  select:hover {
+    background-color: red;
+  }

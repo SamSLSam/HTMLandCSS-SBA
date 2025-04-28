@@ -12,7 +12,7 @@ body{
 }
 .bcenter{
     display: block;
-    justify-content: center;
+    /* justify-content: center; */
     margin: auto;
     text-align: center;
 }
@@ -46,6 +46,9 @@ button {
     background-color: red;
   }
 
+  select {
+    background-color: green;
+  }
   select:hover {
     background-color: red;
   }
